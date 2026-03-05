@@ -10,8 +10,16 @@ namespace SharpPhone
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form frmAddEdit = new frmAddEdit();
-            frmAddEdit.ShowDialog();
+            SmartPhone newPhone = new SmartPhone(1, "Google", "Pixel 4", 256000, 499.99m);
+            
+            List<SmartPhone> phones = new List<SmartPhone>();
+            phones.Add(new SmartPhone(2, "Apple", "iphone 15 pro max", 256000, 9999.99m));
+
+                foreach (SmartPhone phone in phones)
+                {
+                    MessageBox.Show(phone.Brand);
+            }
+
         }
 
         private void btnModify_Click(object sender, EventArgs e)
