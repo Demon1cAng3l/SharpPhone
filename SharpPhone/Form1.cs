@@ -1,10 +1,16 @@
 namespace SharpPhone
 {
-    public partial class Form1 : Form
+    public partial class listPhones : Form
     {
-        public Form1()
+        public listPhones()
         {
             InitializeComponent();
+            ProgressBar progressBar = new ProgressBar();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

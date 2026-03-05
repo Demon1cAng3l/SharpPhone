@@ -1,6 +1,6 @@
 ﻿namespace SharpPhone
 {
-    partial class Form1
+    partial class listPhones
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,18 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
+            listBox1 = new ListBox();
+            btnAddPhone = new Button();
+            btnModify = new Button();
             SuspendLayout();
             // 
-            // Form1
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 16;
+            listBox1.Location = new Point(3, 0);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(475, 484);
+            listBox1.TabIndex = 0;
+            // 
+            // btnAddPhone
+            // 
+            btnAddPhone.Location = new Point(484, 12);
+            btnAddPhone.Name = "btnAddPhone";
+            btnAddPhone.Size = new Size(94, 29);
+            btnAddPhone.TabIndex = 1;
+            btnAddPhone.Text = "+";
+            btnAddPhone.UseVisualStyleBackColor = true;
+            btnAddPhone.Click += button1_Click;
+            // 
+            // btnModify
+            // 
+            btnModify.Location = new Point(484, 47);
+            btnModify.Name = "btnModify";
+            btnModify.RightToLeft = RightToLeft.Yes;
+            btnModify.Size = new Size(94, 29);
+            btnModify.TabIndex = 2;
+            btnModify.Text = "Aanpassen";
+            btnModify.UseVisualStyleBackColor = true;
+            // 
+            // listPhones
             // 
             AutoScaleDimensions = new SizeF(8F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(887, 474);
-            Name = "Form1";
-            Text = "Form1";
+            ClientSize = new Size(887, 485);
+            Controls.Add(btnModify);
+            Controls.Add(btnAddPhone);
+            Controls.Add(listBox1);
+            Name = "listPhones";
+            Text = "Voorraad";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private ListBox listBox1;
+        private Button btnAddPhone;
+        private Button btnModify;
     }
 }
