@@ -5,7 +5,7 @@ namespace SharpPhone
         public listPhones()
         {
             InitializeComponent();
-            ProgressBar progressBar = new ProgressBar();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
