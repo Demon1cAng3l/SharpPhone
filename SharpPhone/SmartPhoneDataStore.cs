@@ -22,8 +22,8 @@ namespace SharpPhone
         public bool locked { get; set; }
     }
 
-    Public class SmartPhoneJsonStore
+    internal class SmartPhoneJsonStore
     {
-        public SmartPhoneDataStore Data { get; set; } =
+        public SmartPhoneJsonStore Data { get; set; } =
     }
 }
