@@ -13,9 +13,9 @@ namespace SharpPhone
             SmartPhone newPhone = new SmartPhone(1, "Google", "Pixel 4", 256000, 499.99m);
             
             List<SmartPhone> phones = new List<SmartPhone>();
-            phones.Add(new SmartPhone(2, "Apple", "iphone 15 pro max", 256000, 9999.99m));
+            phones.Add(new SmartPhone(2, "Apple", "iPhone 12", 128000, 799.99m));
 
-                foreach (SmartPhone phone in phones)
+            foreach (SmartPhone phone in phones)
                 {
                     MessageBox.Show(phone.Brand);
             }
