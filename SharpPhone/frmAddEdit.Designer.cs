@@ -33,12 +33,13 @@
             // 
             // btnOk
             // 
-            btnOk.Location = new Point(12, 12);
+            btnOk.Location = new Point(337, 302);
             btnOk.Name = "btnOk";
             btnOk.Size = new Size(94, 29);
             btnOk.TabIndex = 0;
             btnOk.Text = "ok";
             btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // frmAddEdit
             // 

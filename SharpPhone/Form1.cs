@@ -18,7 +18,7 @@ namespace SharpPhone
             foreach (SmartPhone phone in phones)
                 {
                     MessageBox.Show(phone.Brand);
-            }
+            } 
 
         }
 
