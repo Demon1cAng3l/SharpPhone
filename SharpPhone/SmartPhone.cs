@@ -19,7 +19,7 @@ namespace SharpPhone
             Id = id;
             Brand = brand;
             Model = model;
-            StorageSizeMb = storageSizeMb;
+            StorageSizeMb = storageSizeMb; 
             Price = price;
         }
 

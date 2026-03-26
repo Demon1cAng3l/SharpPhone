@@ -24,6 +24,6 @@ namespace SharpPhone
 
     internal class SmartPhoneJsonStore
     {
-        public SmartPhoneJsonStore Data { get; set; } = new SmartPhoneJsonStore();
+        public SmartPhoneJsonStore Data { get; set; } = new SmartPhoneJsonStore(); 
     }
 }
